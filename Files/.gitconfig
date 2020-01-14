@@ -1,0 +1,14 @@
+[user]
+	email = kennedywork202@gmail.com
+	name = Kennedy
+[core]
+	excludesfile = ~/.gitignore
+	editor = code --wait
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff
